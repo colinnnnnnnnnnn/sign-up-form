@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    min-height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    background-image: url('images/jr-korpa-AK7rrIAldDg-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    color: white;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
