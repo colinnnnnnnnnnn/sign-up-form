@@ -21,7 +21,7 @@ body {
     background-image: url('images/jr-korpa-AK7rrIAldDg-unsplash.jpg');
     background-size: cover;
     background-position: center;
-    width: 40%;
+    min-width: 40%;
     color: white;
 }
 
@@ -37,7 +37,21 @@ body {
 .right {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    padding-left: 5rem;
+    justify-content: center;
+    gap: 3rem;
+
+}
+
+.text {
+    font-size: 2rem;
+    padding: 2rem 5rem;
+}
+
+.form-body {
+    width: 100%;
+    box-shadow: 0 1px 5px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
