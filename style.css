@@ -139,3 +139,14 @@ a {
 #leg {
     color: rgba(255, 0, 0, 0.993);
 }
+
+img {
+    height: 4rem;
+    margin: 0 1rem;
+}
+
+#credits {
+    color: white;
+    position: absolute;
+    bottom: 1rem;
+}
