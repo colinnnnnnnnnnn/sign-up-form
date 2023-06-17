@@ -22,7 +22,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     padding-top: 15rem;
-    background-image: url('images/leyre-71SHXwBLp5w-unsplash.jpg');
+    background-image: url('images/chan-yuki-WNVGBGqVQeY-unsplash.jpg');
     background-size: cover;
     background-position: center;
     min-width: 40%;
@@ -35,16 +35,16 @@ h1 {
     width: 100%;
     text-align: center;
     background-color: rgb(0, 0, 0, 0.4);
-
 }
 
 .right {
+    background-color: rgb(216, 209, 197);
+    box-shadow: 0 0 2px rgba(75, 75, 75, 0.993);
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 3rem;
-    color: white;
-    background-color: rgb(5, 5, 5);
+    color: black;
 }
 
 .text {
@@ -62,8 +62,8 @@ form {
 }
 
 .main {
-    background-color: rgb(5, 5, 5);
-    box-shadow: 0 0 9px 5px rgba(89, 0, 141, 0.993);
+    background-color: rgb(197, 193, 185);
+    box-shadow: 1px 0px 5px rgba(59, 59, 59, 0.993);
     padding: 2rem 0 2rem 5rem;
 }
 
@@ -75,7 +75,7 @@ form {
 
 .input-row {
     display: flex;
-    gap: 5rem;
+    flex-wrap: wrap;
 }
 
 label {
@@ -86,13 +86,14 @@ input {
     font-family: inherit;
     font-size: 1.1rem;
     padding: 0.5rem;
+    margin-right: 5rem;
     border: 0.1rem solid black;
     border-radius: 0.3rem;
 }
 
 input:focus {
     outline: none;
-    border: 0.1rem solid rgba(162, 0, 255, 0.993);
-    box-shadow: 0px 0px 5px 2px rgba(162, 0, 255, 0.993);
+    border: 0.05rem solid rgba(77, 77, 77, 0.993);
+    box-shadow: 0px 0px 3px 2px rgba(77, 77, 77, 0.993);
 }
 
