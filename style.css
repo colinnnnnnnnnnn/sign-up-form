@@ -56,12 +56,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+
 }
 
 .forms {
     padding: 0 5rem;
     display: flex;
+    flex-wrap: wrap;
 }
 
 form {
